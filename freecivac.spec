@@ -17,12 +17,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_appdefsdir	/usr/X11R6/lib/X11/app-defaults
 
 %description
-Free clone of Sid Meiers Civilization. Free Civilization clone for
+Free clone of Sid Meier's Civilization. Free Civilization clone for
 unix and X. This is multiplayer strategic game and you can also play
 against computer-AI players.
 
 %description -l pl
-Darmowy klon Civilization Sida Meiersa, dzia³aj±cy pod uniksem i X.
+Darmowy klon Civilization Sida Meiera, dzia³aj±cy pod uniksem i X.
 Jest to gra strategiczna dla wielu graczy, mo¿na graæ tak¿e przeciwko
 komputerowej AI.
 
