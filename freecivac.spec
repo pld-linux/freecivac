@@ -22,7 +22,7 @@ unix and X. This is multiplayer strategic game and you can also play
 against computer-AI players.
 
 %description -l pl
-Darmowy klon Civilization Sida Meiera, dzia³aj±cy pod uniksem i X.
+Darmowy klon Civilization Sida Meiera, dzia³aj±cy pod Uniksem i X.
 Jest to gra strategiczna dla wielu graczy, mo¿na graæ tak¿e przeciwko
 komputerowej AI.
 
