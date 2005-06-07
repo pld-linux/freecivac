@@ -1,0 +1,11 @@
+--- freecivac/m4/gtk2-client.m4~        2003-06-12 20:57:26.000000000 +0200
++++ freecivac/m4/gtk2-client.m4 2005-05-22 19:43:21.000000000 +0200
+@@ -9,7 +9,7 @@
+     AM_PATH_GTK_2_0(2.0.0,
+       [
+         client="gtk-2.0"
+-        CLIENT_CFLAGS="$GTK_CFLAGS -DGTK_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DG_DISABLE_DEPRECATED"
++        CLIENT_CFLAGS="$GTK_CFLAGS -DGDK_DISABLE_DEPRECATED -DG_DISABLE_DEPRECATED"
+         CLIENT_LIBS="$GTK_LIBS"
+         if test x"$MINGW32" = "xyes"; then
+           dnl Required to compile gtk2 on Windows platform
