@@ -10,7 +10,8 @@ Version:	snap.%{snapdate}
 Release:	0.1
 License:	GPL
 Group:		X11/Applications/Games/Strategy
-Source0:	%{name}-snap-%{snapdate}.tgz
+Source0:	http://vorlon.icpnet.pl/~agaran/%{name}-snap-%{snapdate}.tgz
+# Source0-md5:	5dc07e4f5cae347241b42341ea10d83f
 Patch0:		%{name}-gtk2-m4.diff
 URL:		http://freecivac.sourceforge.net/
 BuildRequires:	autoconf
