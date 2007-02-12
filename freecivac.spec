@@ -4,7 +4,7 @@
 # Conditional build:
 %define	snapdate 20050502
 Summary:	FREE CIVilization clone - AC version
-Summary(pl):	Klon FREE CIVilization - wersja AC
+Summary(pl.UTF-8):   Klon FREE CIVilization - wersja AC
 Name:		freecivac
 Version:	snap.%{snapdate}
 Release:	0.1
@@ -27,9 +27,9 @@ Free clone of Sid Meier's Civilization. Free Civilization clone for
 unix and X. This is multiplayer strategic game and you can also play
 against computer-AI players.
 
-%description -l pl
-Darmowy klon Civilization Sida Meiera, działający pod Uniksem i X.
-Jest to gra strategiczna dla wielu graczy, można grać także przeciwko
+%description -l pl.UTF-8
+Darmowy klon Civilization Sida Meiera, dziaĹajÄcy pod Uniksem i X.
+Jest to gra strategiczna dla wielu graczy, moĹźna graÄ takĹźe przeciwko
 komputerowej AI.
 
 # yes, i know ugly way, but i wanted to commit what i done @home maybe
