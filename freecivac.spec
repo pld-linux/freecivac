@@ -4,7 +4,7 @@
 # Conditional build:
 %define	snapdate 20050502
 Summary:	FREE CIVilization clone - AC version
-Summary(pl.UTF-8):   Klon FREE CIVilization - wersja AC
+Summary(pl.UTF-8):	Klon FREE CIVilization - wersja AC
 Name:		freecivac
 Version:	snap.%{snapdate}
 Release:	0.1
