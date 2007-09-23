@@ -13,6 +13,7 @@ Group:		X11/Applications/Games/Strategy
 Source0:	http://vorlon.icpnet.pl/~agaran/%{name}-snap-%{snapdate}.tgz
 # Source0-md5:	5dc07e4f5cae347241b42341ea10d83f
 Patch0:		%{name}-gtk2-m4.diff
+Patch1:		%{name}-slang.diff
 URL:		http://freecivac.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -37,6 +38,7 @@ komputerowej AI.
 %prep
 %setup -q -n %{name}
 %patch0 -p1
+%patch1 -p1
 rm configure.in
 mv m4/x.252 m4/x.m4
 perl -pi -e 's/-lslang-utf8/-lslang/' server/Makefile.am
