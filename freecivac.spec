@@ -25,7 +25,7 @@ Conflicts:	freeciv
 
 %description
 Free clone of Sid Meier's Civilization. Free Civilization clone for
-unix and X. This is multiplayer strategic game and you can also play
+Unix and X. This is multiplayer strategic game and you can also play
 against computer-AI players.
 
 %description -l pl.UTF-8
