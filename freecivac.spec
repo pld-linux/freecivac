@@ -37,8 +37,8 @@ komputerowej AI.
 # somebody else could fix rest, 
 %prep
 %setup -q -n %{name}
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 rm configure.in
 mv m4/x.252 m4/x.m4
 perl -pi -e 's/-lslang-utf8/-lslang/' server/Makefile.am
